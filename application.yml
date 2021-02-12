@@ -7,7 +7,4 @@ spring:
         git:
           uri: https://github.com/dumindanirosh/ceylontutors-cloud-config-store
           search-paths:
-           - '*service'
-
-
-
+            - '*service'
