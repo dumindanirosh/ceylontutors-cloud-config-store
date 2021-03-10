@@ -2,8 +2,8 @@ spring:
   datasource:
     driverClassName: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/test?serverTimezone=UTC
-    username: root
-    password: root12345
+    #username: root
+    #password: root12345
   jpa:
     hibernate:
       naming:
