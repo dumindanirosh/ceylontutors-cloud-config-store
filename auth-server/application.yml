@@ -5,8 +5,8 @@ spring:
     active: prod
   datasource:
     url: jdbc:mysql://localhost:3306/authDB?serverTimezone=UTC&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true
-   # username: root
-   # password: root1234
+    username: root
+    password: root1234
     driver-class-name: com.mysql.cj.jdbc.Driver
     initialization-mode: always
   jpa:
